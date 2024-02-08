@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <style>
+            html, body {
+                margin : 0;
+                padding : 0;
+            }
+            header {
+                background-color: black;
+                padding: 12px 20px 12px 20px;
+                text-align: center;
+                font-family: Segoe UI;
+                font-size: 18px;
+                margin: 0px;
+                color:#fff;
+            }
+            footer{
+                text-align: center;
+                padding: 12px 20px 12px 20px;
+                font-family: Segoe UI;
+                font-size: 16px;
+                position: fixed;
+                width:100%;
+                bottom: 0px;
+            }
+            footer .btn1{
+                border:2px; 
+                border-radius: 5px; 
+                padding: 10px 90px; 
+                background-color: #fff;
+                
+            }
+            footer .btn2{
+                border:2px; 
+                border-radius: 5px; 
+                padding:10px 90px; 
+                background-color: rgba(23,26,32,0.65);
+            }
+            footer a{
+                text-decoration: none;
+            }
+            body{
+                background-image: url('https://digitalassets-secure.tesla.com/image/upload/f_auto,q_auto/xufyfcvqhmq36szytod7.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            nav{
+                position: fixed;
+                display: flex;
+                align-items: center;
+            }
+            .logo{
+                margin:20px;
+                cursor: pointer;
+            }
+            .nav ul{
+                flex:1;
+                text-align:center;
+            }
+            .nav ul li{
+                display: inline-block;
+                margin: 0px 20px;
+                align-items: center;
+
+            }
+            .nav ul li a{
+                font-size: 16px;
+                font-family: Segoe UI;
+                text-decoration: none;
+                color: black;
+            }
+            .nav ul li a:hover{
+                color: silver;
+            }
+            .navbar a{
+                float: right;
+                padding:10px;
+                text-decoration: none;
+                font-size: 26px;
+                color:black;
+            }
+            .navbar a:hover {
+                background-color: silver;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <span>$7,500 Federal Tax Credit &nbsp;&nbsp;&nbsp;</span>
+            <span>Eligible buyers now receive $7,500 off the purchase price of new 2024 Model Y and Model X Dual Motor. Applied at time of delivery.&nbsp;&nbsp;&nbsp;</span>
+            <span><a href="#" style="color:white;">See Details</a></span>
+        </header>
+        <div style="display: flex; justify-content: space-between;">
+            <div class="logo">
+                <img src="C:\Users\nalla\Downloads\tesla-motors-car-tesla-model-s-tesla-model-3-decal-removebg-preview.png" width="120px" height="20px">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Vehicles</a></li>
+                    <li><a href="#">Energy</a></li>
+                    <li><a href="#">Charging</a></li>
+                    <li><a href="#">Discover</a></li> 
+                    <li><a href="#">Shop</a></li>   
+                </ul>
+            </div>  
+            <div class="navbar">
+                <a href="#"><i class="fa fa-user-circle-o" ></i></a>
+                <a href="#"><i class="fa fa-globe" ></i></a>
+                <a href="#"><i class="fa fa-question-circle-o" ></i></a>
+            </div>
+        </div>
+        <div style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            <span style=" font-size: 48px;"><b>Model 3</b></span><br>
+            <span style="font-size: 28px;">Lease starting at $329/mo*</span>
+        </div>
+
+        <footer>
+            <span class="btn1"><a style="color:rgba(23,26,32,0.65);" href="#">Custom Order</a></span>&nbsp;&nbsp;&nbsp;
+            <span class="btn2"><a style="color: white;" href="#">Demo Drive</a></span>
+            <br>
+            <br>
+            <p style="font-size: 15px; color: gba(23,26,32,0.65);">*Excludes taxes and fees with price subject to change. Available in select states.&nbsp;<a style="color:black; text-decoration:underline ;" href="#">See Details</p>
+        </footer>
+    </body>
+</html>
