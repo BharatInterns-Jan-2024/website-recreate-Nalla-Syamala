@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <style>
+            html, body {
+                margin : 0;
+                padding : 0;
+            }
+            
+            footer{
+                text-align: center;
+                padding: 12px 20px 12px 20px;
+                font-family: Segoe UI;
+                font-size: 10px;
+                position: fixed;
+                width:100%;
+                bottom: 0px;
+            }
+            footer .a{
+                text-decoration: none;
+                font-size: 10px;
+            }
+            nav{
+                position: fixed;
+                display: flex;
+                align-items: center;
+            }
+            .logo{
+                margin:20px;
+                cursor: pointer;
+            }
+            .nav ul{
+                flex:1;
+                text-align:center;
+            }
+            .nav ul li{
+                display: inline-block;
+                margin: 0px 20px;
+                align-items: center;
+
+            }
+            .nav ul li a{
+                font-size: 16px;
+                font-family: Segoe UI;
+                text-decoration: none;
+                color: white;
+            }
+            .nav ul li a:hover{
+                color: silver;
+            }
+            .navbar a{
+                float: right;
+                padding:10px;
+                text-decoration: none;
+                font-size: 26px;
+                color:white;
+            }
+            .navbar a:hover {
+                background-color: silver;
+            }
+
+            section {
+                background-size: cover;
+                overflow-y: hidden;
+            }
+
+            section video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body >
+        <section>
+            <div style="position: absolute; top: 0px; width:100%;">
+                
+                <div style="display: flex; justify-content: space-between; padding-bottom: 60px; width:100%">
+                    <div class="logo">
+                        <img src="C:\Users\nalla\Downloads\tesla-motors-car-tesla-model-s-tesla-model-3-decal-removebg-preview.png" width="120px" height="20px">
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="#">Vehicles</a></li>
+                            <li><a href="#">Energy</a></li>
+                            <li><a href="#">Charging</a></li>
+                            <li><a href="#">Discover</a></li> 
+                            <li><a href="#">Shop</a></li>   
+                        </ul>
+                    </div>  
+                    <div class="navbar">
+                        <a href="#"><i class="fa fa-user-circle-o" ></i></a>
+                        <a href="#"><i class="fa fa-globe" ></i></a>
+                        <a href="#"><i class="fa fa-question-circle-o" ></i></a>
+                    </div>
+                </div>
+                <br><br>
+                <div style="text-align: center; font-family: 'Calibri'; padding-bottom: 40px;">
+                    <span style=" font-size: 50px; color:white;">Help Me Charge</span><br>
+                    <span style="font-size: 18px; color:white;">Find the charging solution that meets your needs by answering questions about <br> your home, driving habits and lifestyle.</span>
+                </div>
+        
+                <div style=" text-align: center;">
+                    <div style="border:2px; border-radius: 3px; background-color: blue; width: 150px; height:30px; display: inline-block; padding-top:10px; "><a style="color:#fff; text-decoration: none; " href="#">Get Started</a></div>
+                </div>
+            </div>
+            <video style="z-index:-1 ;" muted="" playsinline="" loop="" autoplay="">
+                <source type="video/mp4" src="https://digitalassets.tesla.com/discovery-tesla-com/video/upload/f_auto,q_auto/HelpMeCharge-Landing-Desktop-012424.mp4">
+            </video>
+
+            <footer>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">Tesla © 2024</a></li>
+                        <li><a href="#">Privacy & Legal</a></li> 
+                    </ul>
+                </div> 
+            </footer>
+        </section>
+
+    </body>
+</html>
